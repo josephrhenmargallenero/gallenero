@@ -5,7 +5,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background: #0A66C2;
     color: white;
@@ -13,7 +12,6 @@ header {
     text-align: center;
 }
 
-/* Sections */
 section {
     padding: 40px 20px;
     max-width: 1000px;
@@ -24,12 +22,10 @@ h1, h2 {
     color: #0A66C2;
 }
 
-/* Hero */
 .hero {
     text-align: center;
 }
 
-/* Profile Image */
 .profile-img {
     width: 150px;
     height: 150px;
@@ -44,7 +40,6 @@ h1, h2 {
     transform: scale(1.05);
 }
 
-/* Buttons */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -55,7 +50,6 @@ h1, h2 {
     border-radius: 5px;
 }
 
-/* Projects */
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -68,7 +62,6 @@ h1, h2 {
     border-radius: 10px;
 }
 
-/* Contact */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -83,7 +76,6 @@ button {
     cursor: pointer;
 }
 
-/* Footer */
 footer {
     background: #0A66C2;
     color: white;
@@ -91,7 +83,6 @@ footer {
     padding: 20px;
 }
 
-/* Skills Section */
 .skill {
     margin-bottom: 20px;
 }
@@ -116,7 +107,23 @@ footer {
     transition: width 0.5s ease;
 }
 
-/* Responsive */
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    font-size: 30px;
+    color: #0A66C2;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    color: #004182;
+    transform: scale(1.2);
+}
+
 @media (max-width: 768px) {
     .projects {
         grid-template-columns: 1fr;
