@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0A66C2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #0A66C2;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0A66C2;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #0A66C2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Contact */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #0A66C2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #0A66C2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Skills Section */
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.progress {
+    background: #e6f0fa;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #0A66C2;
+    border-radius: 20px;
+    transition: width 0.5s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
